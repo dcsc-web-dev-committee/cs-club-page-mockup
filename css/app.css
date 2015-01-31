@@ -1,6 +1,6 @@
 /* Styles and stuff */
 body {
-
+    font-family: 'Helvetica', arial;
 }
 
 div.row {
@@ -12,7 +12,7 @@ div.row {
 /* Hero styling */
 #hero {
 	padding: 8rem 5rem 5rem 5rem;
-	background-color: #999;
+	background-color: #FF3D7F;
 }	
 
 #hero h1 {
@@ -32,7 +32,7 @@ div.row {
 	/*background-color: pink;*/
 }	
 
-#hero-modal h2{
+#hero-modal h2 {
 	font-family: 'Helvetica', arial;
 	font-weight: 600;
 	font-size: 2rem;
@@ -40,7 +40,7 @@ div.row {
 	margin-top: 4rem;
 }	
 
-#hero-modal p{
+#hero-modal p {
 	font-size: 1rem;
 	letter-spacing: .03rem;
 }	
@@ -49,7 +49,7 @@ div.row {
 
 #committees {
 	padding: 4rem;
-	background-color: #333;
+	background-color: #FF9E9D;
 }
 
 
@@ -68,14 +68,33 @@ div.row {
 
 /* Team styling */
 div.row#team {
-    background-color: #666;
+    background-color: #DAD8A7;
     padding: 4rem;
+}
+
+div.row#team h1 {
+    font-family: 'Helvetica', arial;
+    font-weight: 800;
+    letter-spacing: .03rem;
+    font-size: 3rem;
     text-align: center; 
 }
 
 div.teamcard {
     text-align: center;
     overflow: hidden;
+}
+
+div.teamcard h5 {
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+div.teamcard p {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 img.teampic {
@@ -87,7 +106,14 @@ img.teampic {
 /* Contact form styling */
 
 div.row#contact {
-    background-color: #111;
+    background-color: #3FB8AF;
     padding: 4rem;
+}
+
+div.row#contact h1 {
+    font-family: 'Helvetica', arial;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    font-size: 3rem;
     text-align: center; 
 }
