@@ -1,4 +1,66 @@
 /* Styles and stuff */
+body {
+
+}
+
+/* Hero styling */
+#hero {
+	padding: 8rem 5rem 5rem 5rem;
+	background-color: #999;
+}	
+
+#hero h1 {
+	font-family: 'Helvetica', arial;
+	font-weight: 600;
+	font-size: 4rem;
+} 
+
+.button {
+	background-color: #ef674d;
+	margin: 4rem auto;
+	display: block;
+	width: 11rem;
+}
+
+#hero-modal {
+	/*background-color: pink;*/
+}	
+
+#hero-modal h2{
+	font-family: 'Helvetica', arial;
+	font-weight: 600;
+	font-size: 2rem;
+	letter-spacing: .04rem;
+	margin-top: 4rem;
+}	
+
+#hero-modal p{
+	font-size: 1rem;
+	letter-spacing: .03rem;
+}	
+
+/* Committees styling */
+
+#committees {
+	padding: 4rem;
+	background-color: #333;
+}
+
+
+#committees a{
+	font-weight: 800;
+	letter-spacing: .05rem;
+}
+
+#committees h1 {
+	padding: 3rem 0;
+	font-family: 'Helvetica', arial;
+	font-weight: 800;
+	font-size: 3rem;
+	text-align: center;
+}
+
+/* Team styling */
 
 div.row#team {
     text-align: center;
@@ -13,8 +75,4 @@ img.teampic {
     height: auto;
     width: 100%;
     max-height: 
-}
-
-#hero {
-	padding: 5rem;
 }
