@@ -1,10 +1,22 @@
 /* Styles and stuff */
+<<<<<<< HEAD
 
+=======
+body {
+    font-family: 'Helvetica', arial;
+}
+
+div.row {
+    max-width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+>>>>>>> ea8a1c0eda3de85fab4be12f29f3a92b47c446de
 
 /* Hero styling */
 #hero {
 	padding: 8rem 5rem 5rem 5rem;
-	background-color: #999;
+	background-color: #FF3D7F;
 }	
 
 #hero h1 {
@@ -24,7 +36,7 @@
 	/*background-color: pink;*/
 }	
 
-#hero-modal h2{
+#hero-modal h2 {
 	font-family: 'Helvetica', arial;
 	font-weight: 600;
 	font-size: 2rem;
@@ -32,7 +44,7 @@
 	margin-top: 4rem;
 }	
 
-#hero-modal p{
+#hero-modal p {
 	font-size: 1rem;
 	letter-spacing: .03rem;
 }	
@@ -41,7 +53,7 @@
 
 #committees {
 	padding: 4rem;
-	background-color: #333;
+	background-color: #FF9E9D;
 }
 
 
@@ -59,9 +71,17 @@
 }
 
 /* Team styling */
-
 div.row#team {
-    text-align: center;
+    background-color: #DAD8A7;
+    padding: 4rem;
+}
+
+div.row#team h1 {
+    font-family: 'Helvetica', arial;
+    font-weight: 800;
+    letter-spacing: .03rem;
+    font-size: 3rem;
+    text-align: center; 
 }
 
 div.teamcard {
@@ -69,8 +89,35 @@ div.teamcard {
     overflow: hidden;
 }
 
+div.teamcard h5 {
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+div.teamcard p {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
 img.teampic {
     height: auto;
     width: 100%;
     max-height: 
+}
+
+/* Contact form styling */
+
+div.row#contact {
+    background-color: #3FB8AF;
+    padding: 4rem;
+}
+
+div.row#contact h1 {
+    font-family: 'Helvetica', arial;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    font-size: 3rem;
+    text-align: center; 
 }
