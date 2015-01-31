@@ -1,7 +1,4 @@
 /* Styles and stuff */
-<<<<<<< HEAD
-
-=======
 body {
     font-family: 'Helvetica', arial;
 }
@@ -11,7 +8,12 @@ div.row {
     padding-left: 2em;
     padding-right: 2em;
 }
->>>>>>> ea8a1c0eda3de85fab4be12f29f3a92b47c446de
+
+@media only screen and (min-width: 40.063em) { 
+    div.fullvertical {
+        min-height: 100vh;
+    }
+}
 
 /* Hero styling */
 #hero {
@@ -117,13 +119,19 @@ img.teampic {
 /* Contact form styling */
 
 div.row#contact {
-    background-color: #3FB8AF;
-    padding: 4rem;
+    background-color: #166E92;
+    padding: 8rem 4rem 4rem 4rem;
+}
+
+div.row#contact label {
+    color: white;
+    font-family: 'Inconsolata';
 }
 
 div.row#contact h1 {
+    color: #F1EE7B;
     font-family: 'Helvetica', arial;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: .05rem;
     font-size: 3rem;
     text-align: center; 
