@@ -23,6 +23,7 @@ div.row {
 	font-family: 'Helvetica', arial;
 	font-weight: 600;
 	font-size: 4rem;
+	text-align: center;
 } 
 
 .button {
@@ -93,6 +94,8 @@ div.teamcard h5 {
     font-family: 'Inconsolata';
     font-weight: 700;
     font-size: 1.2rem;
+    padding: .5rem;
+
 }
 
 div.teamcard p {
@@ -105,6 +108,10 @@ img.teampic {
     height: auto;
     width: 100%;
     max-height: 
+}
+
+.panel {
+	padding: 0;
 }
 
 /* Contact form styling */
