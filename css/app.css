@@ -1,7 +1,4 @@
 /* Styles and stuff */
-<<<<<<< HEAD
-
-=======
 body {
     font-family: 'Helvetica', arial;
 }
@@ -11,7 +8,6 @@ div.row {
     padding-left: 2em;
     padding-right: 2em;
 }
->>>>>>> ea8a1c0eda3de85fab4be12f29f3a92b47c446de
 
 @media only screen and (min-width: 40.063em) { 
     div.fullvertical {
