@@ -1,7 +1,5 @@
 /* Styles and stuff */
-body {
 
-}
 
 /* Hero styling */
 #hero {
@@ -49,7 +47,7 @@ body {
 
 #committees a{
 	font-weight: 800;
-	letter-spacing: .05rem;
+	letter-spacing: .03rem;
 }
 
 #committees h1 {
