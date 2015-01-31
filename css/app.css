@@ -14,11 +14,64 @@ div.row {
         min-height: 100vh;
     }
 }
+.nav-logo {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	margin-top: 2.5px;
+}
+
+.top-bar {
+	background: #fff;
+	height: 3.8125rem;
+	padding: .5rem;
+}
+
+.contain-to-grid {
+	background: #fff;
+}
+
+.top-bar {
+	/* Left side */
+    background: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.top-bar-section > ul > li > a {
+	font-weight: 600;
+	color: #000;
+}
+
+.top-bar-section li a:not(.button) {
+	/* Right side */
+    background: #fff !important;   
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #000 !important;   
+
+
+}
+
+.top-bar-section ul li.active > a {
+    background: gray !important;   
+}
+
+.top-bar-section ul li.active > a:hover {
+    background: yellow !important;   
+}
 
 /* Hero styling */
 #hero {
-	padding: 8rem 5rem 5rem 5rem;
-	background-color: #FF3D7F;
+	padding: 12rem 5rem 5rem 5rem;
+	background: -webkit-linear-gradient(top, rgba(41, 41, 41, .9) 0%, rgba(5, 5, 5, .8) 100%), url(../assets/kemp.jpg) no-repeat center center fixed;
+	no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }	
 
 #hero h1 {
@@ -26,6 +79,7 @@ div.row {
 	font-weight: 600;
 	font-size: 4rem;
 	text-align: center;
+	color: #fff;
 } 
 
 .button {
@@ -33,6 +87,11 @@ div.row {
 	margin: 4rem auto;
 	display: block;
 	width: 11rem;
+}
+
+.bstyle {
+	background-color: rgba(0,0,0,.05);
+	border: 1px solid white;
 }
 
 #hero-modal {
