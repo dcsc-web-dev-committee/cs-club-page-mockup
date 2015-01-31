@@ -113,7 +113,7 @@ div.row {
 
 /* Committees styling */
 
-#committees {
+#committees, #team {
 	padding: 4rem;
 	background-color: #FF9E9D;
 }
@@ -125,6 +125,14 @@ div.row {
 }
 
 #committees h1 {
+	padding: 3rem 0;
+	font-family: 'Helvetica', arial;
+	font-weight: 800;
+	font-size: 3rem;
+	text-align: center;
+}
+
+#team h1 {
 	padding: 3rem 0;
 	font-family: 'Helvetica', arial;
 	font-weight: 800;
